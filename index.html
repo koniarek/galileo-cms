@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Galileo - Lifelong Learning Center</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.2/flexslider.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.2/jquery.flexslider.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script>
+    $(document).ready(function(){
+      // Add minus icon for collapse element which is open by default
+      $(".collapse.show").each(function(){
+        $(this).siblings(".card-header").find(".btn i").html("remove");
+      });
+      
+      // Toggle plus minus icon on show hide of collapse element
+      $(".collapse").on('show.bs.collapse', function(){
+        $(this).parent().find(".card-header .btn i").html("remove");
+      }).on('hide.bs.collapse', function(){
+        $(this).parent().find(".card-header .btn i").html("add");
+      });
+    });
+        $(document).ready(function(){
+          // Add minus icon for collapse element which is open by default
+          $(".collapse.show").each(function(){
+            $(this).siblings(".card-header").find(".btn i").html("remove");
+          });
+          
+          // Toggle plus minus icon on show hide of collapse element
+          $(".collapse").on('show.bs.collapse', function(){
+            $(this).parent().find(".card-header .btn i").html("remove");
+          }).on('hide.bs.collapse', function(){
+            $(this).parent().find(".card-header .btn i").html("add");
+          });
+        });
+        </script>
+</head>
+<body>
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+    <a href="index.html" class="logo mr-auto"><img src="https://res.cloudinary.com/skoniarek/image/upload/v1605670686/galileo/logo_tmblxh.svg" alt="" class="img-fluid"></a>
+    <nav class="nav-menu d-none d-lg-block">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="life-in-poland.html">Life in Poland</a></li>
+        <li class="drop-down"><a href="adventures.html">Adventure</a>
+          <ul>
+            <li><a href="adventure-details.html">CANOEING / KAYAKING / YACHTING / ROWING !</a></li>
+            <li><a href="adventure-details2.html">Kitesurfing / Windsurfing</a></li>
+            <li><a href="adventure-details4.html">Camping</a></li>
+            <li><a href="adventure-details3.html">Volleyball / Basketball</a></li>
+          </ul>
+        </li>
+        <li class="drop-down"><a href="education.html">Education</a>
+          <ul>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="online-courses.html">Online Courses</a></li>
+            <li><a href="study-in-poland.html">Study in Poland</a></li>
+          </ul>
+        </li>
+        <li><a href="who-we-are.html">Who We Are?</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+  </div>
+</header><!-- End Header -->
+
+<main id="main">
+  <div class="container my-4">
+    <hr class="my-4">
+    <!--Carousel Wrapper-->
+    <div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo/slider1-min_xad3nd.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://res.cloudinary.com/skoniarek/image/upload/v1603369655/galileo/slider3-min_ydajbd.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://res.cloudinary.com/skoniarek/image/upload/v1603369445/galileo/slider6-min_tu7nxp.jpg" alt="Third slide">
+        </div>
+      </div>
+      <!--/.Slides-->
+      <!--Controls-->
+    
+    </div>
+    <!--/.Carousel Wrapper-->
+  </div>
+  
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2> </h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="https://res.cloudinary.com/skoniarek/image/upload/v1603413364/galileo/galileo_npmngc.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <p style="align-content: space-around; text-align: justify;">
+              <p>Galileo Lifelong Learning Centre offers numerous development opportunities for students, university employees, lecturers and many other groups from around the world, who dream of science beyond their country. However, GLL Centre is an intermediary organisation is an organisation active in the labour market or in the sectors of education, training and youth. It is a partner in a national mobility consortium.</p>
+              <p>
+                It is the organization in charge of receiving foreign students, learners or staff and offering them a program of activities, or benefiting from a teaching / training activity.</p>
+                <p>Erasmus + Program aims to strengthen the personal development of new skills and to increase the opportunities regardless of the person, age and educational background. As a receiving institution, we play an important role in the realization of Erasmus + projects. We ensure that students benefit from the development of their professional experience with the best education programs. In addition, we provide our guests to enjoy various cultural excursions and entertainment programs.
+                </p>
+                <p>It doesn't stop here! The Galileo lifelong centre supports young prospective students in the University enrolment process in the Republic of Poland. It chooses the most suitable universities for the candidates and stands by them in the difficulties they will encounter.</p>
+                <p>
+                  It is very important for us that our students have a voice in social, cultural and sports fields as well as in the academic field. In line with their interests, we organize international sports camps to train students to guide the era and future in which they live.</p>
+                  <p>
+                    <strong>
+                    <i class="icofont-envelope"></i><a href="contact.html">Send Us a Message</a>
+                </strong>
+                  </p>
+                  <br/>
+             <p>We organise:</p>
+            <ul>
+              <li><i class="icofont-check-circled"></i> Internship mobility processes management</li>
+<li><i class="icofont-check-circled"></i> Sustainable Erasmus+ project Design and presentation</li>
+<li><i class="icofont-check-circled"></i> Educational training courses</li>
+<li><i class="icofont-check-circled"></i> Erasmus+</li> 
+<li><i class="icofont-check-circled"></i> Academic collaborations and conferences</li>
+<li><i class="icofont-check-circled"></i> Sports, recreation and science camps</li>
+<li><i class="icofont-check-circled"></i> LDV programmes</li>
+<li><i class="icofont-check-circled"></i> Online Courses with Certificates</li>
+<li><i class="icofont-check-circled"></i> Supporting students</li>
+            </ul>
+            </p>
+            <br />
+            <a href="about.html" class="learn-more-btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+    
+    <section id="about" class="news">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>News</h2>
+        </div>
+        <div class="container-fluid .about .news .panel-group .panel ">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+           
+          <div class=".about .news panel-default">
+              <div class="container-fluid">
+              <div style="text-decoration: underline;" class=".about .news .panel-heading" role="tab" id="headingOne">
+                <h4 class=".about .news .panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                <strong>November 2020 - Upcoming students</strong>
+                </h4>
+              </div>
+              <div id="collapseOne" class=".about .news .panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class=".about .news .panel-body">
+                  <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                    <img src="https://res.cloudinary.com/skoniarek/image/upload/v1606345825/download_41_q77zcu.svg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                    <p style="align-content: space-around; text-align: justify;">
+                    <p><strong>Program students are responsible for submitting the following required documents before their arrival:</strong></p>
+                        <li>Motivation letter</li>
+                        <li>Curriculum Vitae, please use <a style="color: #1da797;text-decoration: underline;" href="http://europass.cedefop.europa.eu">Europass online tool</a> to write your CV.
+                        </li>
+                        <li>Travel documents / Id card copies</li>
+                        <li>Photograh standart Id size</li>
+                        <br/>
+                     <p><strong>Before departure to Poland candidates must be insured with:</strong></p>
+                      <li>Medical insurance/care</li>
+                      <li>Third party liability insurance</li>
+                      <li>Aaccident insurance</li>
+                    </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div style="text-decoration: underline;" class=".about .news .panel-heading" role="tab" id="headingTwo">
+                <h4 class=".about .news .panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                <strong>Property Identification Codes (PIC)</strong>
+                </h4>
+              </div>
+              <div id="collapseTwo" class=".about .news .panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class=".about .news .panel-body">
+                  <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                    <img src="https://res.cloudinary.com/skoniarek/image/upload/v1606348371/download_44_g3lese.svg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                    <p style="align-content: space-around; text-align: justify;">
+                      <p>We kindly invite educational and other official institutions to contact us by <a href="mailto:info@galileo-learning.eu">e-mail</a> for pic number
+                        agreement.</p>
+                    </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-fluid">
+              <div style="text-decoration: underline;" class=".about .news .panel-heading" role="tab" id="headingThree">
+                <h4 class=".about .news .panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                <strong>URGENT! / Covid – 19 Pandemic and Projects</strong>
+                </h4>
+              </div>
+              <div id="collapseThree" class=".about .news .panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class=".about .news .panel-body">
+                  <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                    <img src="https://res.cloudinary.com/skoniarek/image/upload/v1606251131/covid19-news_ex3n9s.svg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                    <p style="align-content: space-around; text-align: justify;">
+                      <p><strong>All projects will be suspended till the Poland borders open for foreigner !</strong></p>
+                      <br/>
+                     <p>More information will follow in future, when we will see how the epidemiological situation develops.
+                      Since the spread of the virus is presently just in its initial stages in Poland, with all cases directly tied
+                      to overseas travellers, it is the best time to learn from the mistakes of others and impose early
+                      preventative measures to limit its spread now.</p>
+                      <p>Regarding delayed projects, we suggest to simply suspend internship mobility for now, and plan to
+                      continue in spring. However, we are kindly remainding you about personal development seminars
+                      through online means or individual consultations.</p>
+                      <p>In the meantime let us enjoy the opportunity to do more research instead.</p>
+                      <p><em>"You cannot teach a man anything, you can only help him find it within himself.”</em>
+                      Galileo galilei</p>
+                    </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div style="text-decoration: underline;" class=".about .news .panel-heading" role="tab" id="headingFour">
+                <h4 class=".about .news .panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <i class="more-less glyphicon glyphicon-chevron-down"></i>
+                <strong>Study in Poland – Candidates</strong>
+                </h4>
+              </div>
+              <div id="collapseFour" class=".about .news .panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div class=".about .news .panel-body">
+                  <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                    <img src="https://res.cloudinary.com/skoniarek/image/upload/v1606348542/download_45_xa6egz.svg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                    <p style="align-content: space-around; text-align: justify;">
+                      <p>Foreign student enrolment continues at Polish Universities, the education process related to the
+                      pandemic process has not been suspended, but the trainings continue online.</p>
+                      <p>For university registrations, please contact us by <a href="mailto:info@galileo-learning.eu">email</a></p>
+                    </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- panel-group -->
+          </div>
+          </div>
+        </div><!-- container -->  
+  </section>
+  </main><!-- End #main -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="email">
+                <i class="icofont-envelope"><strong>info@galileo-learning.eu</strong></i>
+              </div>
+              <div class="phone">
+                <i class="icofont-whatsapp"><strong>+48 691 476 669</strong></i>
+                <br><i class="icofont-whatsapp"><strong>+48 730 906 494</strong></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container d-md-flex py-4">
+  
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Galileo Lifelong Learning Center
+  2020</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+           
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+  
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  </body>
+  </html>
